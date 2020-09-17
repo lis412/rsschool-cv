@@ -1,2 +1,1 @@
-# rsschool-cv
-Repo for the Rolling Scopes school resume tasks
+https://lis412.github.io/rsschool-cv/cv
