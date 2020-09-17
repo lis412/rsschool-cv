@@ -13,8 +13,7 @@ Telegram: [@lis412](https://t.me/lis412)
 I graduated from the Minsk State Radio Engineering College in 2005.
 Since 2006 I worked for the company Soft-Perspective, participated in the development of a set of programs for the automation of processes in education. In the work we used C ++ Builder, MS SQL Server, part of the code was written in C #.
 
-Since 2010 I have been working for Softclub company. I develop software for banks and financial organizations. The last 4 years I manages a small group of developers. I have over 8 years experience in development software using Delphi XE and in designing database using
-Oracle (designing database, query optimization, etc.).
+Since 2010 I have been working for Softclub company. I developed software for banks and financial organizations. The last 4 years I managed a small group of developers. I have over 8 years experience in software development using Delphi XE and Oracle database designing (designing database, query optimization, etc.).
 
 In 2015 I entered the Belarusian State University of Information Technologies and Communications and graduated in January 2019.
 
