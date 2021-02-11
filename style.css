@@ -1,27 +1,69 @@
-#name {
-  display: flex;
-  flex-direction: row;
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
 }
 
-#name>h2 {
-  padding: 0px 0px 0px 15px;
-  font-size: 36px;
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .avatar {
   width: 200px;
-} 
-
-.content {
-  width: 1024px;
-  height: 100%;
-  margin: 0 auto;
-  padding: 0 24px 16px 24px;
-  box-sizing: border-box;
+  margin-right: 20px;
 }
 
-pre {
+.main {
+  display: flex;
+}
+
+.left-panel {
+  width: 35%;
+  margin-right: 20px;
+}
+
+.summary-caption {
+  outline: none;
+}
+
+.summary-detail {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid gray;
+}
+
+.summary-detail p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.summary-detail p + p {
+  margin-top: 0.5rem;
+}
+
+
+.code {
+  margin: 0;
   display: block;
   background-color: #eeeeee;
   border: 1px solid #999999;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rs-logo {
+  width: 70px;
+}
+
+.section-title {
+  background-color:#0000ff88;
+  padding-left: 0.5rem;
+  border-radius: 0.3rem;
 }

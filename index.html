@@ -4,145 +4,184 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="stylesheet" href="style.css">
   <title>CV Andrei Lisovskiy</title>
 </head>
 
 <body>
-  <div class="content">
-    <main>
-      <header id="name">
-        <img class="avatar" src="assets/images/avatar.jpg" alt="Photo">
-        <h2>Andrei Lisovskiy</h2>
-      </header>
+  <header>
+    <div class="wrapper header">
+      <img class="avatar" src="assets/images/avatar.jpg" alt="Photo">
+      <h1>Andrei Lisovskiy</h1>
+    </div>
+  </header>
 
-      <section class="contact_info">
-        <h2>Contact info</h2>
-        <div>
-          email: <a href="mailto:lis412@gmail.com">lis412@gmail.com</a>
-          <br>
-          phone: <a href="tel:+375(29)250-86-03">+375 (29) 250-86-03</a>
-          <br>
-          Telegram: <a href="https://t.me/lis412">@lis412</a>
-        </div>
+  <main>
+    <div class="wrapper main">
+      <aside class="left-panel">
+        <section class="contact_info">
+          <h2 class="section-title">Contact info</h2>
+          <ul class="contact-list">
+            <li>
+              email: <a href="mailto:lis412@gmail.com">lis412@gmail.com</a>
+            </li>
+            <li>
+              phone: <a href="tel:+375(29)250-86-03">+375 29 250-86-03</a>
+            </li>
+            <li>
+              Telegram: <a href="https://t.me/lis412">@lis412</a>
+            </li>
+            <li>
+              LinkedIn: <a href="www.linkedin.com/in/andrey-lisovskiy/">www.linkedin.com/in/andrey-lisovskiy/</a>
+            </li>
+          </ul>
+        </section>
 
-      </section>
+        <section class="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul>
+            <li>Delphi 5/XE/XE2/10.3</li>
+            <li>Oracle</li>
+            <li>MS SQL</li>
+            <li>Jira</li>
+            <li>Git, SVN</li>
+            <li>Java</li>
+            <li>JavaScript, React</li>
+          </ul>
+        </section>
 
-      <section class="summary">
-        <header>
-          <h2>Summary</h2>
-        </header>
-        <div>
-          <p>
-            I graduated from the Minsk State Radio Engineering College in 2005.
-          </p>
-          <p>
-            Since 2006 I worked for the company Soft-Perspective, participated in the development of a set of programs
-            for
-            the automation of processes in education. In the work we used C ++ Builder, MS SQL Server, part of the code
-            was written in C #.
-          </p>
-          <p>
-            Since 2010 I have been working for Softclub company. I developed software for banks and financial
-            organizations. The last 4 years I managed a small group of developers. I have over 8 years experience in
-            software development using Delphi XE and Oracle database designing (designing database, query optimization,
-            etc.).
-          </p>
-          <p>
-            In 2015 I entered the Belarusian State University of Information Technologies and Communications and
-            graduated
-            in January 2019.</p>
-          <p>
-            Since November 2019 I am working for Intrahealth company.
-          </p>
-        </div>
-      </section>
+        <section class="languages">
+          <h2 class="section-title">Languages</h2>
+          <ul>
+            <li>English: B1</li>
+            <li>Russian: Native</li>
+            <li>Polish: A1</li>
+          </ul>
+          <p></p>
+        </section>
 
-      <section class="skills">
-        <h2>Skills</h2>
-        <ul>
-          <li>Delphi 5/XE/XE2/10.3</li>
-          <li>Oracle</li>
-          <li>MS SQL</li>
-          <li>Jira</li>
-          <li>Git, SVN</li>
-          <li>Java</li>
-          <li>JavaScript, React</li>
-        </ul>
-      </section>
+      </aside>
 
-      <section class="code_examples">
-        <h2>Code example</h2>
-        <pre>
-// TODO: add real code example
-    // code from www.codewars.com task
-    function isPrime(num) {
-      if (num &lt; 2) {
-        return false
-      }
-      
-      for ( let i = 2; i &lt;= Math.sqrt(num); i++) {
-        if (num % i === 0) return false;
-      }
-      return true;
-    }          
-        </pre>
-      </section>
+      <div class="history">
+        <section class="summary">
+          <header>
+            <h2 class="section-title">Summary</h2>
+          </header>
+          <details>
+            <summary class="summary-caption">
+              Experienced software engineer with 10 years of practice in designing and
+              developing applications in Delphi and PL/SQL.
+            </summary>
+            <div class=summary-detail>
+              <p>I graduated from the Minsk State Radio Engineering College in 2005.</p>
+              <p>
+                Since 2006 I worked for the company Soft-Perspective, participated in the development of a set of programs
+                for
+                the automation of processes in education. In the work we used C ++ Builder, MS SQL Server, part of the code
+                was written in C #.
+              </p>
+              <p>
+                Since 2010 I have been working for Softclub company. I developed software for banks and financial
+                organizations. The last 4 years I managed a small group of developers. I have over 8 years experience in
+                software development using Delphi XE and Oracle database designing (designing database, query optimization,
+                etc.).
+              </p>
+              <p>
+                In 2015 I entered the Belarusian State University of Information Technologies and Communications and
+                graduated
+                in January 2019.</p>
+              <p>
+                Since November 2019 I am working for Intrahealth company.
+              </p>
+            </div>
+          </details>
+        </section>
 
-      <section class="experience">
-        <h2>Experience</h2>
-        <ul>
-          <li>Nov 2019-Present: Intrahealth company. Software engineer. Developing software for medical organizations.
-            <br>Main responsibilities:
-            <ul>
-              <li>Software development</li>
-              <li>Web development</li>
-            </ul>
-          </li>
-          <li>Jan 2010-Oct 2019: Softclub company. Software engineer. Developing software for banks and financial
-            organizations.
-            <br>Main responsibilities:
-            <ul>
-              <li>Software development</li>
-              <li>Database development</li>
-              <li>Leadership of the development team</li>
-            </ul>
-          </li>
-          <li>Nov 2006 – Dec 2009: Soft-perspective company. Software engineer. Developing software for educational
-            organizations.
-            <br>Main responsibilities:
-            <ul>
-              <li>Software development</li>
-              <li>Database development</li>
-            </ul>
-          </li>
-        </ul>
-      </section>
+        <section class="experience">
+          <h2 class="section-title">Work experience</h2>
+          <ul>
+            <li>Nov 2019-Present: Intrahealth company. Software engineer. Developing software for medical organizations.
+              <br>Main responsibilities:
+              <ul>
+                <li>Software development</li>
+                <li>Web development</li>
+              </ul>
+            </li>
+            <li>Jan 2010-Oct 2019: Softclub company. Software engineer. Developing software for banks and financial
+              organizations.
+              <br>Main responsibilities:
+              <ul>
+                <li>Software development</li>
+                <li>Database development</li>
+                <li>Leadership of the development team</li>
+              </ul>
+            </li>
+            <li>Nov 2006 – Dec 2009: Soft-perspective company. Software engineer. Developing software for educational
+              organizations.
+              <br>Main responsibilities:
+              <ul>
+                <li>Software development</li>
+                <li>Database development</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
 
-      <section class="education">
-        <h2>Education</h2>
-        <ul>
-          <li>Sep 2015 – Jan 2019
+        <section class="education">
+          <h2 class="section-title">Education</h2>
+          <ul>
+            <li>Sep 2015 – Jan 2019
 
-            Organization: Belarusian State University of Informatics and Radioelectronics
-            Qualification: Software Engineer
-            Major: Faculty of computer technologies</li>
-          <li>Sep 2001 – Jun 2005
+              Organization: Belarusian State University of Informatics and Radioelectronics
+              Qualification: Software Engineer
+              Major: Faculty of computer technologies</li>
+            <li>Sep 2001 – Jun 2005
 
-            Organization: Minsk State Higher Radioengineering College
-            Qualification: Technician-programmer
-            Major: Department of Computer Technologies</li>
-          <li>Coursera courses (Git, Algorithms) </li>
-        </ul>
-      </section>
+              Organization: Minsk State Higher Radioengineering College
+              Qualification: Technician-programmer
+              Major: Department of Computer Technologies</li>
+            <li>Coursera courses (Git, Algorithms) </li>
+          </ul>
+        </section>
 
-      <section class="english">
-        <h2>English</h2>
-        <p>B1 (Intermediate) - training with a tutor</p>
-      </section>
-    </main>
-  </div>
+        <section class="code_examples">
+          <h2 class="section-title">Code example</h2>
+          <details>
+            <summary class="code">...</summary>
+            <pre class="code">
+
+              // TODO: add real code example
+              function isPrime(num) {
+                if (num &lt; 2) {
+                  return false
+                }
+
+                for ( let i = 2; i &lt;= Math.sqrt(num); i++) {
+                  if (num % i === 0) return false;
+                }
+                return true;
+              }
+            </pre>
+          </details>
+        </section>
+
+      </div>
+
+    </div>
+  </main>
+  <footer>
+    <div class="wrapper footer">
+      <span>
+        GitHub: <a href="https://github.com/lis412">https://github.com/lis412</a>
+      </span>
+      <a href="https://rs.school/js/">
+        <img class="rs-logo" src="https://rs.school/images/rs_school_js.svg"
+             alt="RS School">
+      </a>
+      <time>2021</time>
+    </div>
+  </footer>
 </body>
 
 </html>
